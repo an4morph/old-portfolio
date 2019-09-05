@@ -1,0 +1,26 @@
+.skills-item {
+  margin-bottom: 7px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  font-size: 12px;
+  font-weight: 600;
+}
+.percent {
+  font-size: 12px;
+  color: #888;
+}
+.wrapper {
+  height: 6px;
+  width: 100%;
+  border-radius: 9px;
+  background-color: #fff;
+  border: 1px solid var(--main-color);
+}
+.percentage {
+  background-color: var(--main-color);
+  height: 6px;
+}

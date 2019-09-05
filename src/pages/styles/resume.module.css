@@ -1,0 +1,31 @@
+.timeline, .skills {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  margin-top: 20px;
+}
+.left-col {
+  width: 65%;
+  padding-right: 40px;
+}
+.right-col {
+  width: 35%;
+}
+
+
+@media (max-width: 990px) {
+  .row {
+    flex-direction: column;
+  }
+  .left-col, .right-col {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .page {
+    padding: 20px 15px;
+  }
+}
