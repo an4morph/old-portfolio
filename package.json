@@ -30,8 +30,9 @@
   ],
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf public .cache",
     "build": "gatsby build",
-    "deploy": "npm run build && node ./deploy-github",
+    "deploy": "npm run clean && npm run build && node ./deploy-github",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

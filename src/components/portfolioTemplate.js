@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 export default function Template({
   data,
 }) {
-  console.log('ss', data)
   const { markdownRemark } = data 
   const { frontmatter, html } = markdownRemark
   const params = {
