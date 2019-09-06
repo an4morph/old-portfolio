@@ -35,3 +35,12 @@
   color: #555555;
   margin-left: 30px;
 }
+@media (max-width: 576px) {
+  .portfolio-item {
+    flex-direction: column;
+  }
+  .description {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
