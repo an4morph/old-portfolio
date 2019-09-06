@@ -46,7 +46,7 @@ const Inner = ({ className }) => {
           <i className="fa fa-linkedin" />
         </Button>
         <Button
-          link="https://github.com/an4morph/Resume"
+          link="https://github.com/an4morph/an4morph.github.io"
           external
           className="socialBtn"
         >
