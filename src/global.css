@@ -30,6 +30,16 @@ a {
 .page {
   padding: 50px 70px;
 }
+@media (max-width: 768px) {
+  .page {
+    padding: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .page {
+    padding: 30px 15px;
+  }
+}
 
 .portfolio-swiper {
   max-height: 350px;
