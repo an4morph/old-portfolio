@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Swiper from 'react-id-swiper'
 import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 
 export default function Template({
   data,
@@ -21,6 +22,7 @@ export default function Template({
 
   return (
     <Layout>
+      <SEO title={frontmatter.title} />
       <div className="page">
         <h1>{frontmatter.title}</h1>
         <div className="portfolio-swiper">

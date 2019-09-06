@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../../components/Layout'
+import SEO from '../../components/SEO'
 import SectionTitle from '../../components/SectionTitle'
 import PortfolioItem from '../../components/PortfolioItem'
 import ItekaImg from '../../images/itk/logo.svg'
@@ -37,6 +38,7 @@ const data = [
 
 const PortfolioPage = () => (
   <Layout>
+    <SEO title="Portfolio" />
     <div className="page">
       <SectionTitle
         title="Portfolio"

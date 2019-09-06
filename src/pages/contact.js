@@ -2,11 +2,13 @@ import React from 'react'
 import Layout from '../components/Layout'
 import SectionTitle from '../components/SectionTitle'
 import Button from '../components/Button'
+import SEO from '../components/SEO'
 import styles from './styles/contact.module.css'
 
 
 const ContactPage = () => (
   <Layout>
+    <SEO title="Contacts" />
     <div className="page">
       <SectionTitle
         title="Contact"

@@ -5,6 +5,7 @@ import SectionTitle from '../components/SectionTitle'
 import BlockTitle from '../components/BlockTitle'
 import Timeline from '../components/Timeline'
 import Skills from '../components/Skills'
+import SEO from '../components/SEO'
 
 const jobs = [
   {
@@ -108,6 +109,7 @@ const skills = [
 
 const ResumePage = () => (
   <Layout>
+    <SEO title="Resume" />
       <div className="page">
         <SectionTitle
           title="Resume"
