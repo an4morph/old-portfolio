@@ -6,8 +6,8 @@ import Avatar from '../../images/avatar.jpg'
 
 const Inner = ({ className }) => {
   const lis = [
-    { id: 1, text: 'About', link: '/' },
-    { id: 2, text: 'Resume', link: '/resume' },
+    { id: 1, text: 'About', link: '/about' },
+    { id: 2, text: 'Resume', link: '/' },
     { id: 3, text: 'Portfolio', link: '/portfolio' },
     { id: 4, text: 'Contact', link: '/contact' },
   ]
